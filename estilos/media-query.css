@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+Extra small mobile (portrait): 320–480 pixels For the smallest smartphones, where content is stacked vertically
+Small mobile (landscape): 481–600 pixels
+Small tablet (portrait): 601–768 pixels For tablets like the iPad Mini in portrait mode
+Large tablet (landscape): 769–1024 pixels
+Small desktop and laptop: 1025–1280 pixels For smaller laptops or desktops
+Large desktop and high-resolution screen: 1281–1440 pixels For large desktop monitors and high-resolution screens
+Extra-large desktop: 1441 pixels and up For ultra-wide or high-definition monitors
+*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #login {
+        width: 90vw;
+    }
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #96c7ef);
+    }
+
+    #login > #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #login > #formulario {
+        float: right;
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1025px) {
+   
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #96c7ef);
+    }
+
+    #login {
+       width: 950px; 
+    }
+    #login > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #login > #formulario {
+        float: right;
+        width: 50%;
+
+    }
+}
