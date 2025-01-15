@@ -9,7 +9,7 @@ Small desktop and laptop: 1025–1280 pixels For smaller laptops or desktops
 Large desktop and high-resolution screen: 1281–1440 pixels For large desktop monitors and high-resolution screens
 Extra-large desktop: 1441 pixels and up For ultra-wide or high-definition monitors
 */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
     #login {
         width: 90vw;
     }
@@ -22,11 +22,15 @@ Extra-large desktop: 1441 pixels and up For ultra-wide or high-definition monito
         width: 30%;
         height: 100%;
     }
-
     #login > #formulario {
         float: right;
-        width: 80%;
+        width: 70%;
     }
+
+  
+    
+
+   
 }
 @media screen and (min-width: 1025px) {
    
@@ -38,13 +42,21 @@ Extra-large desktop: 1441 pixels and up For ultra-wide or high-definition monito
        width: 950px; 
     }
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #login > #formulario {
-        float: right;
+        float: left; 
         width: 50%;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
 
     }
+    #formulario > p {
+        font-size: 1.2em
+    }
+   
 }

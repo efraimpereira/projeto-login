@@ -39,6 +39,7 @@ main {
     height: 620px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
+    
 
     transition: width 0.3s, heigh 0.3s;
     transition-timing-function: ease;
@@ -59,4 +60,15 @@ main {
 #login > #formulario {
     display: block;
     padding: 10px;
+
 }
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em
+}
+
