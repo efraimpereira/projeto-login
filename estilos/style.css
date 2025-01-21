@@ -88,7 +88,7 @@ form > .campo {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px);
+    transform: translateY(-12px);
 }
 .campo > input:focus-within {
     background-color: white;
